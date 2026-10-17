@@ -1,8 +1,8 @@
 class Tunedteam < Formula
   desc "Multi-agent dev environment for Claude Code in tmux"
   homepage "https://github.com/zdzislawbela/tunedteam"
-  url "https://github.com/zdzislawbela/tunedteam/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "2b4b206b60000908cf43be16ad7d5155df6de14780b6085ce95df4c0ed7d29c9"
+  url "https://github.com/zdzislawbela/tunedteam/archive/refs/tags/v0.2.4.tar.gz"
+  sha256 "7b8434ae903c5c4b9807858cb8c30e8caba020b7ac774e44aede058a77e02b81"
   head "https://github.com/zdzislawbela/tunedteam.git", branch: "main"
 
   depends_on "tmux"
