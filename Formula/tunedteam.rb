@@ -8,7 +8,7 @@ class Tunedteam < Formula
   depends_on "tmux"
 
   def install
-    libexec.install "bin", "roles", "tmux.conf"
+    libexec.install "bin", "roles", "tmux.conf", "VERSION"
     bin.install_symlink libexec/"bin/tunedteam"
   end
 
