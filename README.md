@@ -3,8 +3,8 @@
 Homebrew formulas.
 
 ```sh
-brew install zdzislawbela/tap/tuned-team
+brew install zdzislawbela/tap/tunedteam
 ```
 
-- **tuned-team**: a multi-agent dev environment for Claude Code in tmux
-  ([github.com/zdzislawbela/tuned-team](https://github.com/zdzislawbela/tuned-team)).
+- **tunedteam**: a multi-agent dev environment for Claude Code in tmux
+  ([github.com/zdzislawbela/tunedteam](https://github.com/zdzislawbela/tunedteam)).
