@@ -1,14 +1,15 @@
 class Tunedteam < Formula
   desc "Multi-agent dev environment for Claude Code in tmux"
   homepage "https://github.com/zdzislawbela/tunedteam"
-  url "https://github.com/zdzislawbela/tunedteam/archive/refs/tags/v0.2.6.tar.gz"
-  sha256 "9e069565972f2f01bfabffb12117db235ae2803a9c48228b11fcba7c7d6401f7"
+  license "MIT"
+  url "https://github.com/zdzislawbela/tunedteam/archive/refs/tags/v0.2.7.tar.gz"
+  sha256 "49290cffbdbe94b14782ac8546f3a260050c51631bad7babc1993beffd787ace"
   head "https://github.com/zdzislawbela/tunedteam.git", branch: "main"
 
   depends_on "tmux"
 
   def install
-    libexec.install "bin", "roles", "tmux.conf", "VERSION"
+    libexec.install "bin", "roles", "tmux.conf", "VERSION", "INSIDE-OUT.md"
     bin.install_symlink libexec/"bin/tunedteam"
   end
 
