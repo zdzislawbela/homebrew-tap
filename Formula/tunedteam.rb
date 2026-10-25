@@ -3,7 +3,7 @@ class Tunedteam < Formula
   homepage "https://github.com/zdzislawbela/tunedteam"
   license "MIT"
   url "https://github.com/zdzislawbela/tunedteam/archive/refs/tags/v0.2.35.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "0b0f0204ee525946446ec54f2c28f681355e8b39d23a6a25188e9d01d6a14e2c"
   head "https://github.com/zdzislawbela/tunedteam.git", branch: "main"
 
   depends_on "tmux"
